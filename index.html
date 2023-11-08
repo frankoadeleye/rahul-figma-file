@@ -19,15 +19,46 @@
           <img src="https://iili.io/JBntOiX.jpg" alt="logo" srcset="" />
           <ul>
             <li>Home</li>
-            <li>Community</li>
+            <li class="list-item-with-icon">
+              Community
+              <img src="https://iili.io/JBu7aI9.png" alt="dropdown icon" />
+            </li>
             <li>Blog</li>
             <li>Events</li>
           </ul>
         </div>
         <div class="action-links">
           <button class="btn">Log In</button>
+          <img
+            src="https://iili.io/JBu2peV.png"
+            alt="hamburger"
+            class="hamburger"
+            onclick="ToggleSidebar()"
+          />
         </div>
       </nav>
+      <div class="mobile-nav">
+        <div class="top-section">
+          <img src="https://iili.io/JBntOiX.jpg" alt="logo" srcset="" />
+          <img
+            src="https://iili.io/JBuT4F2.png"
+            alt="close"
+            onclick="ToggleSidebar()"
+            class="close-icon"
+          />
+        </div>
+        <ul>
+          <li>Home</li>
+          <li class="list-item-with-icon">
+            Community
+            <img src="https://iili.io/JBu7aI9.png" alt="dropdown icon" />
+          </li>
+          <li>Blog</li>
+          <li>Events</li>
+        </ul>
+        <br />
+        <button class="btn">Log In</button>
+      </div>
       <div class="banner-section">
         <div class="banner-text-section">
           <div class="banner-breadcrum">Netbook community</div>
@@ -162,9 +193,17 @@
       </div>
     </div>
     <div class="footer">
-      <div class="foot-note"></div>
-      <div class="logo"></div>
-      <div class="social-links"></div>
+      <div class="note">Besnik Creative Agency.</div>
+      <div class="logo">
+        <img src="https://iili.io/JBTGIYG.png" alt="" class="src" />
+      </div>
+      <div class="social-links">
+        <img src="https://iili.io/JBTXVl1.png" alt="facebook" />
+        <img src="https://iili.io/JBTXWUF.png" alt="instagram" />
+        <img src="https://iili.io/JBTXhHg.png" alt="Linkedin" />
+        <img src="https://iili.io/JBTXMKP.png" alt="Twitter" />
+      </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
