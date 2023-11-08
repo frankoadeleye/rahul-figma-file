@@ -215,6 +215,212 @@ li {
   flex-direction: column;
 }
 
+.testimonial {
+  padding: 69px 135px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(312deg, #d4e7fe -15.24%, #fff 78.85%);
+}
+
+.testimonial > .small-title {
+  color: #217bf4;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial > .main-title {
+  color: #0a093d;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+.testimonial > .description {
+  color: #656464;
+  text-align: center;
+  font-size: 16px;
+  width: 454px;
+  font-weight: 400;
+  margin-bottom: 38px;
+  line-height: 28px;
+}
+
+.tab-section {
+  width: auto;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: rgba(33, 123, 244, 0.06);
+  padding: 8px;
+  display: flex;
+  margin-bottom: 44px;
+  align-items: center;
+}
+
+.tab-section > .tab-item {
+  border-radius: 14px;
+  cursor: pointer;
+  width: 150px;
+  height: 56px;
+  color: #2f2c4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.16px;
+}
+
+.tab-section > .tab-item.active {
+  background: #217bf4;
+  color: #fff;
+}
+
+.testimony-wrap {
+  border: 1px solid red;
+  display: flex;
+  flex: 1 1 0;
+  gap: 30px;
+}
+
+.testimony-wrap > .item {
+  width: 270px;
+  border: 2px solid blue;
+  height: 316px;
+  border-radius: 14px;
+  border: 2px solid rgba(243, 243, 243, 0.5);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  padding: 30px 52px 34px 52px;
+  box-sizing: border-box;
+}
+
+.testimony-wrap > .item > .name {
+  color: #2f2c4a;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.testimony-wrap > .item > .handle {
+  color: #656464;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.latest-news {
+  padding: 82px 128px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+}
+
+.latest-news > .small-title {
+  color: #217bf4;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.latest-news > .main-title {
+  color: #0a093d;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 74px;
+}
+
+.latest-news-image-wrap {
+  border: 1px solid blue;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.latest-news-image-wrap > .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-news-image-wrap > .item > img {
+  margin-bottom: 12px;
+}
+
+.latest-news-image-wrap > .item > .text-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.latest-news-image-wrap > .item > .text-container > .text {
+  border: 1px solid red;
+  color: #2f2c4a;
+  width: 252px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.latest-news-image-wrap > .item > .text-container > .text > .continue-reading {
+  display: flex;
+  align-items: center;
+}
+
+.latest-news-image-wrap
+  > .item
+  > .text-container
+  > .text
+  > .continue-reading
+  > .continue-reading-text {
+  border: 1px solid orange;
+  display: flex;
+  gap: 8px;
+  color: #217bf4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.latest-news-image-wrap
+  > .item
+  > .text-container
+  > .text
+  > .continue-reading
+  > .continue-reading-text
+  > img {
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+.latest-news-image-wrap > .item > .text-container > .illustration {
+  width: 39px;
+  height: 2px;
+  background: #ffaf2e;
+}
+
+/*_____________________________________mobile view___________________________________*/
+
 @media (max-width: 1024px) {
   .navbar {
     margin-bottom: 40px;
@@ -268,6 +474,31 @@ li {
   }
 
   .sub-banner {
+    flex-direction: column;
+  }
+
+  .testimony-wrap {
+    flex-direction: column;
+  }
+
+  .testimonial > .description {
+    width: 100%;
+  }
+
+  .latest-news,
+  .testimonial {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .latest-news > .small-title,
+  .latest-news > .main-title,
+  .testimonial > .small-title,
+  .testimonial > .main-title {
+    font-size: 50%;
+  }
+
+  .latest-news-image-wrap {
     flex-direction: column;
   }
 }
