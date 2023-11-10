@@ -2,29 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Your Solutions For Community! More than 2 billion people in over countries use socibook to stay in touch with friends & family."
+    />
+    <title>NetBook</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Changa+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="nav-with-banner">
+    <!-- Navbar with Banner section wrapped up in main tag -->
+    <main class="nav-with-banner">
       <nav class="navbar">
         <div class="nav-links">
-          <img src="https://iili.io/JBntOiX.jpg" alt="logo" srcset="" />
+          <a href="/">
+            <img
+              src="https://iili.io/JBntOiX.jpg"
+              alt="Notebook"
+              srcset=""
+              class="brand-logo"
+            />
+          </a>
           <ul>
-            <li class="active">Home</li>
+            <li class="active"><a href="/">Home</a></li>
             <li class="list-item-with-icon">
-              Community
-              <img src="https://iili.io/JBu7aI9.png" alt="dropdown icon" />
+              <a href="/"
+                >Community
+                <img src="https://iili.io/JBu7aI9.png" alt="dropdown icon"
+              /></a>
             </li>
-            <li>Blog</li>
-            <li>Events</li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Events</a></li>
           </ul>
         </div>
         <div class="action-links">
@@ -37,6 +59,7 @@
           />
         </div>
       </nav>
+      <!-- Mobile Nav, only appear on mobile -->
       <div class="mobile-nav">
         <div class="top-section">
           <img src="https://iili.io/JBntOiX.jpg" alt="logo" srcset="" />
@@ -62,11 +85,11 @@
       <div class="banner-section">
         <div class="banner-text-section">
           <div class="banner-breadcrum">Netbook community</div>
-          <div class="banner-main-text">Your Solutions For Community!</div>
-          <div class="banner-sub-text">
+          <h1 class="banner-main-text">Your Solutions For Community!</h1>
+          <p class="banner-sub-text">
             More than 2 billion people in over countries use socibook to stay in
             touch with friends & family.
-          </div>
+          </p>
           <div class="banner-btns-wrap">
             <button class="banner-btn-1">About More</button>
             <button class="banner-btn-2">Invite Friend</button>
@@ -76,17 +99,17 @@
           <img src="https://iili.io/JBntPxS.png" alt="banner-illustration" />
         </div>
       </div>
-    </div>
-    <div class="sub-banner">
+    </main>
+    <section class="sub-banner">
       <div class="sub-banner-text-section">
         <div class="sub-banner-small-heading">Whats Netbooks?</div>
-        <div class="sub-banner-main-text">
+        <h1 class="sub-banner-main-text">
           Why Join to Netbook Social Network?
-        </div>
-        <div class="sub-banner-description">
+        </h1>
+        <p class="sub-banner-description">
           Recent surveys have indicated that small businesses recognise the need
           they have to connect with consumer.
-        </div>
+        </p>
         <ul class="sub-banner-list">
           <li>Groups</li>
           <li>Messages</li>
@@ -103,43 +126,43 @@
           <img src="https://iili.io/JBnDF0g.png" alt="sub-banner-top-image" />
         </div>
       </div>
-    </div>
-    <div class="testimonial">
+    </section>
+    <section class="testimonial">
       <div class="small-title">Valuable Team</div>
-      <div class="main-title">Our Active Members</div>
-      <div class="description">
+      <h3 class="main-title">Our Active Members</h3>
+      <p class="description">
         when an unknown printer took a galley of type and meeting fari scrambled
         it.
-      </div>
+      </p>
       <div class="tab-section">
         <div class="tab-item">Newest</div>
         <div class="tab-item">Popular</div>
         <div class="tab-item active">Active</div>
       </div>
-      <div class="testimony-wrap">
-        <div class="item">
+      <ul class="testimony-wrap">
+        <li class="item">
           <img src="https://iili.io/JBnDCeR.png" alt="first-testimony" />
           <div class="name">Fahim Rahman</div>
           <div class="handle">@rahman</div>
-        </div>
-        <div class="item">
+        </li>
+        <li class="item">
           <img src="https://iili.io/JBnDnbp.png" alt="second-testimony" />
           <div class="name">Kazi Rahman</div>
           <div class="handle">@Rahman</div>
-        </div>
-        <div class="item">
+        </li>
+        <li class="item">
           <img src="https://iili.io/JBnDxzN.png" alt="third-testimony" />
           <div class="name">Masterero Ali</div>
           <div class="handle">@Master</div>
-        </div>
-        <div class="item">
+        </li>
+        <li class="item">
           <img src="https://iili.io/JBnDxzN.png" alt="fourth-testimony" />
           <div class="name">Alia Karon</div>
           <div class="handle">@Alia</div>
-        </div>
-      </div>
-    </div>
-    <div class="latest-news">
+        </li>
+      </ul>
+    </section>
+    <section class="latest-news">
       <div class="bolg-union left">
         <img
           src="https://iili.io/JBeJzS1.png"
@@ -155,7 +178,7 @@
         />
       </div>
       <div class="small-title">Get Our Aplication</div>
-      <div class="main-title">Latest News</div>
+      <h3 class="main-title">Latest News</h3>
       <div class="latest-news-image-wrap">
         <div class="item">
           <img src="https://iili.io/JBnDB5v.png" alt="first-testimony" />
@@ -166,8 +189,8 @@
               <br />
               <div class="continue-reading">
                 <div class="continue-reading-text">
-                  continue-reading
-                  <img src="https://iili.io/JBx61TP.png" alt="arrow" />
+                  Continue-reading
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -182,8 +205,8 @@
               <br />
               <div class="continue-reading">
                 <div class="continue-reading-text">
-                  continue-reading
-                  <img src="https://iili.io/JBx61TP.png" alt="arrow" />
+                  Continue-reading
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -197,27 +220,42 @@
               It Does Not Matter Hows Slowly go as Long<br /><br />
               <div class="continue-reading">
                 <div class="continue-reading-text">
-                  continue-reading
-                  <img src="https://iili.io/JBx61TP.png" alt="arrow" />
+                  Continue-reading
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
+    </section>
+    <footer class="footer">
       <div class="note">Besnik Creative Agency.</div>
       <div class="logo">
-        <img src="https://iili.io/JBTGIYG.png" alt="" class="src" />
+        <a href="/">
+          <img
+            src="https://iili.io/JBTGIYG.png"
+            alt="Notebook"
+            srcset=""
+            class="brand-logo"
+          />
+        </a>
       </div>
       <div class="social-links">
-        <img src="https://iili.io/JBTXVl1.png" alt="facebook" />
-        <img src="https://iili.io/JBTXWUF.png" alt="instagram" />
-        <img src="https://iili.io/JBTXhHg.png" alt="Linkedin" />
-        <img src="https://iili.io/JBTXMKP.png" alt="Twitter" />
+        <a href="https://www.facebook.com" target="_blank" class="link"
+          ><img src="https://iili.io/JBTXVl1.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank" class="link"
+          ><img src="https://iili.io/JBTXWUF.png" alt="instagram"
+        /></a>
+        <a href="https://www.linkedin.com" target="_blank" class="link"
+          ><img src="https://iili.io/JBTXhHg.png" alt="Linkedin"
+        /></a>
+        <a href="https://www.twitter.com" target="_blank" class="link"
+          ><img src="https://iili.io/JBTXMKP.png" alt="Twitter"
+        /></a>
       </div>
-    </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>
