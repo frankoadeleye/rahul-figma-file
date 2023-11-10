@@ -9,7 +9,3 @@ function ToggleSidebar() {
 	}
 }
 
-// // Function to toggle the plus menu into minus
-// function myFunction(x) {
-// 	x.classList.toggle("fa-minus-circle");
-// }

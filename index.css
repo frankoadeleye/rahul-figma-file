@@ -357,6 +357,28 @@ li {
   align-items: center;
   flex-direction: column;
   background: #fff;
+  position: relative;
+}
+
+.latest-news > .bolg-union {
+  position: absolute;
+  position: absolute;
+  z-index: 1;
+}
+
+.latest-news > .bolg-union > img {
+  width: 137px;
+  height: 152px;
+}
+
+.latest-news > .bolg-union.left {
+  left: 78px;
+  top: 150px;
+}
+
+.latest-news > .bolg-union.right {
+  right: 46px;
+  top: 271px;
 }
 
 .latest-news > .small-title {
@@ -382,6 +404,8 @@ li {
   width: 100%;
   gap: 61px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 2;
   justify-content: center;
 }
 
